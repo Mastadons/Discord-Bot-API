@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.myles</groupId>
+  <artifactId>Discord-Bot-API</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Discord Bot API</name>
+  <description>A simple Discord Bot API that adds on to JDA!</description>
+  	<repositories>
+		<!-- JDA API Repository -->
+		<repository>
+			<id>jcenter</id>
+			<name>jcenter-bintray</name>
+			<url>https://jcenter.bintray.com</url>
+		</repository>
+	</repositories>
+	<dependencies>
+		<!-- JDA API -->
+		<dependency>
+			<groupId>net.dv8tion</groupId>
+			<artifactId>JDA</artifactId>
+			<version>4.2.0_222</version>
+		</dependency>
+	</dependencies>
+</project>
